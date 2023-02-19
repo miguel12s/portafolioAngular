@@ -1,0 +1,43 @@
+
+.navbar{
+    padding:2rem;
+    background-color: #fff;
+}
+
+.navbar-collapse{
+    align-items: center;
+    justify-content: flex-end;
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-brand{
+        display: none;
+    }
+    
+}
+
+ul>li>a{
+    font-size: 18px;
+    color:#6E07F3;
+}
+
+nav>a{
+    font-size: 18px;
+    color:#6E07F3; 
+}
+
+section{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+

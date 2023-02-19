@@ -1,0 +1,31 @@
+.seccion-oscura{
+    color:white;
+    background-color: #6E07F3;
+}
+
+.sobre-mi{
+    height: 500px;
+    padding: 10px;
+}
+section{
+    display: flex;
+    justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+
+
+.sobre-mi .contenedor{
+    max-width: 600px;
+    text-align: center;
+
+}
+
+.seccion-titulo{
+    font-size: 2rem;
+    padding:15px 0;
+    font-family: 'Rubik Dirt',cursive;
+}
+
+

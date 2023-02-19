@@ -1,0 +1,80 @@
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.seccion-clara{
+    color:black;
+    background-color: #fff;
+}
+
+.experiencia i {
+    font-size: 2.5rem;
+    color: #7ade30;
+    width: 55px;
+    height: 55px;
+    background-color:#5BE9B9 ;
+    padding: 20px,20px ,0px, 100px;
+    border-radius: 50%;
+   margin-top: 30px;
+    
+}
+
+
+
+.experiencia-titulo{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0px;
+
+}
+
+a{
+    text-decoration: none;
+   
+}
+
+
+.container{
+    margin-top:-6rem;
+   background-color:#fff;
+   box-shadow: 0px 8px 0px rgb(244,244,253);
+  
+}
+
+
+section{
+    padding: 40px,40px, 60px,40px;
+}
+
+.badges-container{
+    font-size:  20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.badge{
+margin: 5px;
+}
+
+.experiencia .column{
+    padding: 20px;
+    border:2px solid #8080804d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 0.2 ease-in;
+    
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,74 @@
+section{
+  display: flex;
+  justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seccion-oscura{
+    background-color:#6E07F3;
+    color:#fff;
+
+}
+
+.seccion-titulo{
+    font-size: 2rem;
+    padding:15px 0;
+    font-family: 'Rubik Dirt',cursive;
+    margin-top: 2rem;
+}
+
+
+.contacto .container{
+    max-width: 1100px;
+    min-height: 200px;
+    padding: 20px;
+}
+
+.contacto .rectangulo{
+margin-top: -5rem;
+background-color: rgb(13,110,253);
+border-radius: 10px;
+box-shadow: 0 1px 4px 1px white;;
+
+}
+
+.contacto .row{
+    width: 100%;
+    display: flex;
+  align-items: center;
+
+}
+
+.contacto .descripcion{
+    color:white;
+    font-size: 1.2rem;
+
+}
+
+.contacto button{
+    color:white;
+    font-weight:bold;
+    background-color: transparent;;
+    border: 2px solid white;
+    padding: 1.25em 2em;
+    margin: 10px;
+    border-radius: 100px;
+    transition: all 0.2s ease-in-out;
+}
+
+.contacto button i {
+    color:#fff;
+    font-size: 1.3rem;
+    transition: all 0.2s ease-in-out;
+}
+.contacto button:hover {
+    background-color: #fff;
+    color: black;
+
+ }
+ 
+
+.contacto button:hover i {
+   color: black;
+}
